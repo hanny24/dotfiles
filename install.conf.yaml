@@ -1,0 +1,16 @@
+- clean: []
+
+- shell:
+  - [git submodule update --init --recursive, Installing submodules]
+
+- link:
+    ~/.config/fish/config.fish: config/fish/config.fish
+    ~/.config/fish/fish_prompt.fish: config/fish/fish_prompt.fish
+    ~/.oh-my-fish: oh-my-fish
+    ~/.config/terminator: config/terminator
+    ~/.config/autostart/terminator.desktop: config/autostart/terminator.desktop
+    ~/.config/redshift.conf: config/redshift.conf
+    ~/.config/beets/config.yaml: config/beets/config.yaml
+
+- shell:
+  - [fish -c 'omf install', Installing fish plugins]

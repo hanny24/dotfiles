@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Exec=terminator -b --layout=hanny
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[cs_CZ]=Terminator
+Name=Terminator
+Comment[cs_CZ]=
+Comment=
+X-GNOME-Autostart-Delay=0

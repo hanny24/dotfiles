@@ -1,0 +1,22 @@
+directory: ~/Hudba
+
+library: ~/Hudba/library.blb
+
+import:
+    move: yes
+
+paths:
+    default: $albumartist/$album%aunique{}/$track - $title
+
+plugins: [fromfilename, lastgenre, fetchart, mpdupdate, convert, info]
+
+art_filename: FolderArt
+
+convert:
+    embed: false
+    threads: 2
+    format: motog
+    formats:
+        motog:
+            command: ffmpeg -i $source -y -acodec mp3 -maxrate 130k $dest
+            extension: mp3

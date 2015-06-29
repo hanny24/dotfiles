@@ -1,0 +1,46 @@
+[global_config]
+  enabled_plugins = InactivityWatch, ActivityWatch
+  borderless = True
+  sticky = True
+  always_on_top = True
+  title_hide_sizetext = True
+  hide_from_taskbar = True
+  tab_position = bottom
+[keybindings]
+  hide_window = F12
+  edit_window_title = None
+[profiles]
+  [[default]]
+    use_system_font = False
+    visible_bell = True
+    background_darkness = 0.94
+    scrollback_lines = 8192
+    background_image = None
+    use_custom_command = True
+    scroll_on_output = False
+    icon_bell = False
+    show_titlebar = False
+    custom_command = fish -i
+    font = Droid Sans Mono 10
+[layouts]
+  [[default]]
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+      profile = default
+    [[[window0]]]
+      type = Window
+      parent = ""
+  [[hanny]]
+    [[[child0]]]
+      position = 0:25
+      type = Window
+      order = 0
+      parent = ""
+      size = 1679, 450
+    [[[terminal1]]]
+      profile = default
+      type = Terminal
+      order = 0
+      parent = child0
+[plugins]
