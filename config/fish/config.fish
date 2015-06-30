@@ -11,12 +11,12 @@ set fish_custom $HOME/.dotfiles/fish-custom
 . $fish_path/oh-my-fish.fish
 
 # All built-in plugins can be found at ~/.oh-my-fish/plugins/
-# Custom plugins may be added to ~/.oh-my-fish/custom/plugins/
 Plugin "theme"
 Plugin "archlinux"
 Plugin "jump"
 Plugin "extract"
 Plugin "balias"
+Plugin "pbcopy"
 Plugin "map"
 Plugin "functional"
 Plugin "utils"
@@ -32,4 +32,3 @@ set -x M2_HOME "/opt/maven"
 set -x _JAVA_OPTIONS '-Dawt.useSystemAAFontSettings=on -Dswing.aatext=true'
 
 balias manb 'man --html=firefox'
-balias xclip 'xclip -selection c'
