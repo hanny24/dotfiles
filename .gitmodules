@@ -4,3 +4,9 @@
 [submodule "oh-my-fish"]
 	path = oh-my-fish
 	url = https://github.com/oh-my-fish/oh-my-fish
+[submodule "fish-custom/plugins/assoc"]
+	path = fish-custom/plugins/assoc
+	url = git@github.com:hanny24/assoc.git
+[submodule "fish-custom/plugins/functional"]
+	path = fish-custom/plugins/functional
+	url = git@github.com:hanny24/functional.git

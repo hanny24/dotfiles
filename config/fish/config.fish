@@ -17,7 +17,7 @@ Plugin "jump"
 Plugin "extract"
 Plugin "balias"
 Plugin "pbcopy"
-Plugin "map"
+Plugin "assoc"
 Plugin "functional"
 Plugin "utils"
 
