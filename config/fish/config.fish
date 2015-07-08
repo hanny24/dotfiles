@@ -21,6 +21,7 @@ Plugin "pbpaste"
 Plugin "assoc"
 Plugin "functional"
 Plugin "utils"
+Plugin "gradle"
 
 # Theme
 Theme "coffeeandcode"

@@ -10,3 +10,6 @@
 [submodule "fish-custom/plugins/functional"]
 	path = fish-custom/plugins/functional
 	url = git@github.com:hanny24/functional.git
+[submodule "fish-custom/plugins/gradle-fish"]
+	path = fish-custom/plugins/gradle-fish
+	url = git@github.com:hanny24/gradle-fish.git
