@@ -11,6 +11,9 @@
     ~/.config/autostart/terminator.desktop: config/autostart/terminator.desktop
     ~/.config/redshift.conf: config/redshift.conf
     ~/.config/beets/config.yaml: config/beets/config.yaml
+    ~/.bin/lockscreen: bin/lockscreen
+    ~/.bin/shutup: bin/shutup
+    ~/.bin/svg2pdf: bin/svg2pdf
 
 - shell:
   - [fish -c 'omf install', Installing fish plugins]

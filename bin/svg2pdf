@@ -1,0 +1,3 @@
+#!/bin/bash
+
+inkscape -A $2 $1
