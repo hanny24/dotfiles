@@ -4,6 +4,6 @@
 [submodule "oh-my-fish"]
 	path = oh-my-fish
 	url = https://github.com/oh-my-fish/oh-my-fish
-[submodule "fish-custom/plugins/gradle-fish"]
+[submodule "gradle"]
 	path = fish-custom/plugins/gradle
 	url = git@github.com:hanny24/gradle-fish.git
